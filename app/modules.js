@@ -9,7 +9,7 @@ define(function() {
         sayIt: function() {
           return this.greeting + ', ' + this.name;
         }
-      }
+      };
     }
   };
 });

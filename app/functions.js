@@ -30,7 +30,9 @@ define(function() {
 
     useArguments : function() {
       var total = 0;
-      for (var num of arguments) { total += num; };
+      for (var i = 0, len = arguments.length; i < len; i++) {
+        total += arguments[i]; 
+      }
       return total;
     },
 

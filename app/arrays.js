@@ -12,7 +12,9 @@ define(function() {
 
     sum : function(arr) {
       var sum = 0;
-      for (var item of arr) { sum += item; };
+      for (var i = 0, len = arr.length; i < len; i++) {
+        sum += arr[i];
+      }
       return sum;
     },
 
